@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "NodeChatSystem",
   "version": "0.0.1",
   "description": "Realtime chat system for Tutorialzine.com",
@@ -19,4 +20,40 @@
     "socket.io": "~0.9.16",
     "ejs": "~0.8.5"
   }
+=======
+  "name": "chat",
+  "version": "0.0.0",
+  "description": "node.js/socket.io chat app",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "~0.8.5",
+    "express": "~3.4.8",
+    "node-uuid": "~1.4.1",
+    "nodemon": "~1.0.13",
+    "socket.io": "~0.9.16",
+    "shrinkwrap": "~0.0.3",
+    "underscore": "~1.5.2",
+    "bower": "~1.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tamaspiros/advanced-chat.git"
+  },
+  "author": "Tamas Piros",
+  "url": "http://tamas.io",
+  "email": "me@tamas.io",
+  "license": "free",
+  "bugs": {
+    "url": "https://github.com/tamaspiros/advanced-chat/issues"
+  },
+  "homepage": "https://github.com/tamaspiros/advanced-chat"
+>>>>>>> 19df64a9e40809f90ba98ca31f779511f3dd7bf3
 }
